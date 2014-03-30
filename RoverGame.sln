@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverGame", "RoverGame\RoverGame.csproj", "{BCB6B7E2-A34A-401C-9F84-FC1BE6F2B0FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverGame.Console", "RoverGame.Console\RoverGame.Console.csproj", "{D5114D58-C629-4B0A-BCCA-3C707731507F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoverGame.Player", "RoverGame.Player\RoverGame.Player.csproj", "{CD256E49-A1DA-4138-AF6A-71F6A05A046B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{BCB6B7E2-A34A-401C-9F84-FC1BE6F2B0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB6B7E2-A34A-401C-9F84-FC1BE6F2B0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB6B7E2-A34A-401C-9F84-FC1BE6F2B0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5114D58-C629-4B0A-BCCA-3C707731507F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5114D58-C629-4B0A-BCCA-3C707731507F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5114D58-C629-4B0A-BCCA-3C707731507F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5114D58-C629-4B0A-BCCA-3C707731507F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD256E49-A1DA-4138-AF6A-71F6A05A046B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD256E49-A1DA-4138-AF6A-71F6A05A046B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD256E49-A1DA-4138-AF6A-71F6A05A046B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD256E49-A1DA-4138-AF6A-71F6A05A046B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

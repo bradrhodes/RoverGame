@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BCB6B7E2-A34A-401C-9F84-FC1BE6F2B0FC}</ProjectGuid>
+    <ProjectGuid>{CD256E49-A1DA-4138-AF6A-71F6A05A046B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RoverGame</RootNamespace>
-    <AssemblyName>RoverGame</AssemblyName>
+    <RootNamespace>RoverGame.Player</RootNamespace>
+    <AssemblyName>RoverGame.Player</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,23 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Constants.cs" />
-    <Compile Include="Extensions.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="GameBoard.cs" />
-    <Compile Include="IAlterGameBoard.cs" />
-    <Compile Include="ITerrainState.cs" />
+    <Compile Include="Instruction.cs" />
+    <Compile Include="IRover.cs" />
+    <Compile Include="GameState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandomGenerator.cs" />
-    <Compile Include="BoardSpace.cs" />
-    <Compile Include="Rover.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RoverGame.Player\RoverGame.Player.csproj">
-      <Project>{cd256e49-a1da-4138-af6a-71f6a05a046b}</Project>
-      <Name>RoverGame.Player</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
